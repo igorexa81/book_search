@@ -13,7 +13,7 @@ const PARAM_HPP = 'maxResults=';
 const API_KEY = process.env.REACT_APPAPI_KEY;
 
 axios.get(`${PATH_BASE}${PATH_SEARCH}?${PARAM_SEARCH}${req.params.searchTerm}&${PARAM_HPP}${DEFAULT_HPP}&key=${API_KEY}`)
-.then(response => res.json({data: response.data}))
+.then(response => res.json( response.data))
 .catch(err => res.json({err}));
 });
 // Matches with '/api/bookshelf'

@@ -1,7 +1,7 @@
 import axios from 'axios';
 export default {
   getGoogleBooks: function (search) {
-    return axios.get(`/api/books/googlebook/${search}`).then(res => res.data.data.items)
+    return axios.get(`/api/books/googlebook/${search}`).then(res => res.data.items)
   },
 
   saveBook: function (bookData) {
