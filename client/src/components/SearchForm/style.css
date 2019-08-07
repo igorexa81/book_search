@@ -1,0 +1,27 @@
+.title {
+    color:#00FFFF;
+    text-shadow: 2px 2px black;
+    
+  }
+  
+  .lead {
+    color: cornsilk;
+    text-shadow: 2px 2px black;
+  }
+  
+  .instructions {
+    text-shadow: 2px 2px black;
+  }
+
+  .h1{
+    text-align: center;
+  }
+
+  .header{
+    
+    text-align: center;
+  }
+
+  button [type="submit"]{
+    color:red;
+  }
