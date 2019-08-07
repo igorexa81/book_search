@@ -1,2 +1,4 @@
 node_modules
-.env
+
+.env REACT_APPAPI_KEY=AIzaSyBFpWLl3mSlrAZrng-a13SXlY0VHs1weew
+
